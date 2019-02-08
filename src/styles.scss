@@ -1,0 +1,25 @@
+/* You can add global styles to this file, and also import other style files */
+h1{
+    font-size: 50px;
+    font-weight: bold;
+    color: #FEFAF1;
+}
+p{
+    font-size: 20px;
+    font-weight: lighter;
+    color: #FEFAF1;
+}
+i{
+    font-size: 18px;
+    font-weight: lighter;
+    // color: #FFA000;
+}
+.container-fluid{
+    // margin-top: -58px;
+    .first{
+        margin-top: 70px;
+    }
+    .foda-item{
+        margin-top: 100px;
+    }
+}
