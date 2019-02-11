@@ -25,10 +25,11 @@ import { DebilidadesComponent } from './foda/debilidades/debilidades.component';
 // metas
 import { MetasComponent } from './metas/metas.component';
 import { FilosofiaComponent } from './filosofia/filosofia.component';
+import { QuienSoyComponent } from './quien-soy/quien-soy.component';
 
 
 const APP_ROUTES: Routes = [
-  // { path: '', component: AppComponent},
+  { path: '', component: QuienSoyComponent},
   { path: '***', component: AppComponent },
   { path: 'mision', component: MisionComponent },
   { path: 'vision', component: VisionComponent },
@@ -63,7 +64,8 @@ const APP_ROUTES: Routes = [
 
     HeaderComponent,
     MetasComponent,
-    FilosofiaComponent
+    FilosofiaComponent,
+    QuienSoyComponent
   ],
   imports: [
     BrowserModule,
